@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #e6f2ff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo do formulário */
+}
+
+form .form-group {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 2rem;
+}
+
+.home {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.home h2 {
+    text-align: center;
+    color: #004d99;
+    margin-bottom: 2rem;
+}
+
+.home h3 {
+    color: #003366;
+    margin-top: 1.5rem;
+}
+
+.home ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.home ul li {
+    margin: 0.5rem 0;
+}
+
+.home ul li a {
+    text-decoration: none;
+    color: #004d99;
+    font-weight: 500;
+}
+
+.home ul li a:hover {
+    text-decoration: underline;
+}
+
+.relatorio {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.relatorio h2 {
+    text-align: center;
+    color: #004d99;
+    margin-bottom: 2rem;
+}
+
+.relatorio h3 {
+    color: #003366;
+    margin-top: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3rem;
+}
