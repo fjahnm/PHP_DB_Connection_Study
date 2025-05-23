@@ -1,11 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Tempo de geração: 23/05/2025 às 23:25
--- Versão do servidor: 10.4.32-MariaDB
--- Versão do PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -128,7 +123,7 @@ CREATE TABLE `funcionario` (
 --
 
 INSERT INTO `funcionario` (`Pnome`, `Minicial`, `Unome`, `Cpf`, `Datanasc`, `Endereco`, `Sexo`, `Salario`, `Cpf_supervisor`, `Dnr`) VALUES
-('Felipe', 'J', 'Macedo', '05353023048', '2004-08-21', 'Rua Afonso Fátima 277 - Gravataí', 'M', 4800.00, '33344555587', 4),
+('Felipe', 'J', 'Macedo', '12345685239', '2004-08-21', 'Rua A. Fátima 778 - Canoas', 'M', 4800.00, '33344555587', 4),
 ('João', 'B', 'Silva', '12345678966', '1965-01-09', 'Rua das Flores, 751, São Paulo, SP', 'M', 30000.00, '33344555587', 5),
 ('Fernando', 'T', 'Wong', '33344555587', '1955-12-08', 'Rua da Lapa, 34, São Paulo, SP', 'M', 40000.00, '88866555576', 5),
 ('Joice', 'A', 'Leite', '45345345376', '1972-07-31', 'Av. Lucas Obes, 74, São Paulo, SP', 'F', 25000.00, '33344555587', 5),
