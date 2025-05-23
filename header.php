@@ -11,10 +11,12 @@
     <h1>GravataíenSistema</h1>
     <nav>
         <ul>
+            <ul>
             <li><a href="index.php">Início</a></li>
             <li><a href="cadastro_funcionario.php">Cadastrar Funcionário</a></li>
             <li><a href="lista_funcionarios.php">Listar Funcionários</a></li>
             <li><a href="pesquisa_funcionarios.php">Pesquisar Funcionários</a></li>
+            <li><a href="relatorio_dependentes.php">Relatório de Depenentes</a></li>
             <li><a href="cadastro_departamento.php">Cadastrar Departamento</a></li>
             <li><a href="lista_departamento.php">Listar Departamentos</a></li>
             <li><a href="pesquisa_departamentos.php">Pesquisar Departamentos</a></li>
@@ -22,6 +24,8 @@
             <li><a href="lista_projeto.php">Listar Projetos</a></li>
              <li><a href="pesquisa_projetos.php">Pesquisar Projetos</a></li>
             <li><a href="funcionarios_por_projeto.php">Relatório por Projeto</a></li>
+            <li><a href="relatorio_projetos.php">Relatório de Projetos</a></li>
+        </ul>
         </ul>
     </nav>
 </header>
