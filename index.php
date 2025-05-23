@@ -8,6 +8,7 @@
         <li><a href="cadastro_funcionario.php">Cadastrar Funcionário</a></li>
         <li><a href="lista_funcionarios.php">Listar Funcionários</a></li>
         <li><a href="pesquisa_funcionarios.php">Pesquisar Funcionário</a></li>
+        <li><a href="funcionarios_por_projeto.php">Relatório de Funcionários por Projeto</a></li>
     </ul>
 
     <h3>Departamentos</h3>
@@ -20,6 +21,6 @@
     <ul>
         <li><a href="cadastro_projeto.php">Cadastrar Projeto</a></li>
         <li><a href="lista_projeto.php">Listar Projetos</a></li>
-        <li><a href="funcionarios_por_projeto.php">Relatório de Funcionários por Projeto</a></li>
+        <li><a href="relatorio_projetos.php">Relatório de Projetos</a></li>
     </ul>
 </section>
